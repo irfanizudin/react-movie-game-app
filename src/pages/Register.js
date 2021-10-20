@@ -15,7 +15,6 @@ const Register = () => {
 
     const handleRegister = (event) => {
         event.preventDefault();
-        console.log(inputAuth);
         functionRegister();
         setInputAuth({ name: "", email: "", password: "" });
     };

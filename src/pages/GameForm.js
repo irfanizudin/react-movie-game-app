@@ -24,8 +24,6 @@ const GameForm = () => {
 
     const handleSubmitGame = (event) => {
         event.preventDefault();
-        console.log(inputGame);
-        // functionSubmitMovie();
         if (currentId === null) {
             functionSubmitGame();
         } else {

@@ -18,7 +18,6 @@ const Login = () => {
 
     const handleLogin = (event) => {
         event.preventDefault();
-        console.log(inputAuth);
         functionLogin();
         setSidebarPage("movie-settings");
         setInputAuth({ email: "", password: "" });

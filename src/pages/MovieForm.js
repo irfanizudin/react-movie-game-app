@@ -23,8 +23,6 @@ const MovieForm = () => {
 
     const handleSubmitMovie = (event) => {
         event.preventDefault();
-        // console.log(input);
-        // functionSubmitMovie();
         if (currentId === null) {
             functionSubmitMovie();
         } else {

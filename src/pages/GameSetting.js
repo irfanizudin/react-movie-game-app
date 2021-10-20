@@ -49,7 +49,6 @@ const GameSetting = () => {
     const handleSearch = (event) => {
         event.preventDefault();
         setSearchTrigger(!searchTrigger);
-        // console.log(inputSearch);
         functionSearchGame();
     };
 
@@ -62,7 +61,6 @@ const GameSetting = () => {
     const handleFilter = (event) => {
         event.preventDefault();
         setSearchTrigger(!searchTrigger);
-        console.log(filter);
         functionFilterGame();
     };
 
